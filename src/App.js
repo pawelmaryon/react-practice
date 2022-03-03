@@ -1,7 +1,7 @@
 
 import Expenses from "./components/Expenses/Expenses";
 
-function App(props) {
+const App = (props) => {
   const expenses = [
     {
       date: new Date(2022, 3, 2 ),
